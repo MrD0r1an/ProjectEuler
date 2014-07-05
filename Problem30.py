@@ -1,0 +1,1 @@
+print(sum(n for n in range(2, 999999) if n == sum([int(c) ** 5 for c in str(n)])))
